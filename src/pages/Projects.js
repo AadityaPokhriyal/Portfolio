@@ -15,21 +15,21 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: 'Future Project 1',
-      description: 'Placeholder for another amazing project you have built or will build. Showcase your skills here.',
-      githubLink: '#',
-      deployLink: '#',
+      title: '',
+      description: '',
+      githubLink: '',
+      deployLink: '',
       icon: <Code size={30} />,
-      tags: ['React', 'Node.js']
+      tags: []
     },
     {
       id: 3,
-      title: 'Future Project 2',
-      description: 'Placeholder for another amazing project. The layout automatically adapts to show multiple projects beautifully.',
-      githubLink: '#',
-      deployLink: '#',
+      title: '',
+      description: '',
+      githubLink: '',
+      deployLink: '',
       icon: <Layout size={30} />,
-      tags: ['UI/UX', 'Design']
+      tags: []
     }
   ];
 
