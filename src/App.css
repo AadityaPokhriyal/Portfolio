@@ -6,7 +6,8 @@
 
 .main-content {
   flex: 1;
-  padding-top: 80px; /* Space for fixed navbar */
+  padding-top: 80px;
+  /* Space for fixed navbar */
   min-height: calc(100vh - 80px);
 }
 
@@ -43,7 +44,8 @@
   padding: 0.5rem 0;
 }
 
-.nav-link:hover, .nav-link.active {
+.nav-link:hover,
+.nav-link.active {
   color: var(--text-main);
 }
 
@@ -58,7 +60,8 @@
   transition: width 0.3s ease;
 }
 
-.nav-link:hover::after, .nav-link.active::after {
+.nav-link:hover::after,
+.nav-link.active::after {
   width: 100%;
   box-shadow: 0 0 10px var(--accent-red-glow);
 }
@@ -152,7 +155,7 @@
   border-radius: 50%;
   background: linear-gradient(145deg, var(--bg-card), var(--bg-darker));
   border: 2px solid var(--accent-red);
-  box-shadow: 0 0 30px var(--accent-red-glow), inset 0 0 20px rgba(0,0,0,0.5);
+  box-shadow: 0 0 30px var(--accent-red-glow), inset 0 0 20px rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -185,7 +188,9 @@
 }
 
 @keyframes rotate {
-  100% { transform: rotate(360deg); }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /* Socials Config */
@@ -323,25 +328,33 @@
     gap: 2rem;
     padding: 2rem 0;
   }
-  
+
   .hero-actions {
     justify-content: center;
   }
-  
+
   .socials-container {
     justify-content: center;
   }
-  
+
   .hero-title {
     font-size: 2.5rem;
   }
-  
+
   .image-placeholder {
     width: 250px;
     height: 250px;
   }
-  
+
   .nav-links {
-    display: none; /* In a real app we'd add a hamburger menu */
+    gap: 1rem;
+  }
+
+  .nav-link {
+    font-size: 0.9rem;
+  }
+
+  .nav-brand {
+    font-size: 1.2rem;
   }
 }
