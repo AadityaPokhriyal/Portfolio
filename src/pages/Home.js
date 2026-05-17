@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Smartphone, Mail, Code2, X } from 'lucide-react';
+import { useState } from 'react';
+import { Mail, Code2, X } from 'lucide-react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import profileImage from '../images/aaditya.jpeg';
 

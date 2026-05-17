@@ -1,4 +1,3 @@
-import React from 'react';
 import { ExternalLink, Keyboard, Code, Layout } from 'lucide-react';
 import { FaGithub } from 'react-icons/fa';
 
